@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/patient_dashboard_title_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="欢迎！患者XXX"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp" />
+
+    <Button
+        android:id="@+id/fill_info_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="填写患者信息"
+        android:layout_below="@id/patient_dashboard_title_textview"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/view_feedback_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查看个人反馈"
+        android:layout_below="@id/fill_info_button"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

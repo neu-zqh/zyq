@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="信息填写"
+            android:layout_marginTop="80dp"
+            android:textSize="24sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="40dp" />
+
+        <EditText
+            android:id="@+id/patient_name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="患者姓名"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/patient_id_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="住院号"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/patient_age_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="患者年龄"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/patient_diagnosis_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="诊断"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/patient_height_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="身高"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/patient_weight_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="体重"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/patient_history_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="既往史"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="既往化疗有无恶心呕吐"
+            android:layout_marginBottom="10dp" />
+
+        <Spinner
+            android:id="@+id/nausea_vomiting_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/nausea_vomiting_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="恶心呕吐症状描述"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="能否经口进食"
+            android:layout_marginBottom="10dp" />
+
+        <Spinner
+            android:id="@+id/oral_intake_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="胃肠功能是否正常"
+            android:layout_marginBottom="10dp" />
+
+        <Spinner
+            android:id="@+id/gi_function_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/gi_function_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="肠胃功能异常描述"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/submit_info_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提交"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp" />
+
+    </LinearLayout>
+</ScrollView>

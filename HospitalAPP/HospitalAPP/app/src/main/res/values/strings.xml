@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HospitalAPP</string>
+    <string-array name="yes_no_array">
+        <item>是</item>
+        <item>否</item>
+    </string-array>
+</resources>
